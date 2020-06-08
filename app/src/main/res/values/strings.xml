@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Graduation Application</string>
+    <string name="title_activity_entrance_professor">Entrance_professor</string>
+    <string name="title_activity_enterance_student">Enterance_student</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="nav_prof_open">navigation Bar</string>
+    <string name="nav_prof_close">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name: </string>
+    <string name="mobile">Mobile: </string>
+    <string name="e_mail">E-mail: </string>
+    <string name="title_activity_all_notes">AllNotes</string>
+    <string name="title_activity_trial">trial</string>
+    <string name="stu_nav_open">open</string>
+    <string name="stu_nav_close">close</string>
+    <string name="title_activity_chat_rooms">chatRooms</string>
+</resources>

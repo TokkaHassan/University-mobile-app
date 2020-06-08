@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/student_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/curve_shape"
+        app:titleMarginStart="15dp"
+        android:layout_margin="17dp"
+        android:elevation="25dp"
+    android:translationZ="25dp"
+        android:fitsSystemWindows="true"
+        app:titleTextColor="@color/colorAccent"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+

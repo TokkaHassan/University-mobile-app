@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.graduationapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".studentStuff.Activities.students_In_Subject"></activity>
+        <activity android:name=".Identification" />
+        <activity android:name=".studentStuff.Activities.chat" />
+        <activity
+            android:name=".studentStuff.Activities.chatRooms"
+            android:label="@string/title_activity_chat_rooms"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".studentStuff.Activities.noteUpdate" />
+        <activity android:name=".studentStuff.Activities.Attendance" />
+        <activity android:name=".studentStuff.Activities.Schedules" />
+        <activity android:name=".studentStuff.Activities.Grades" />
+        <activity android:name=".studentStuff.Activities.noteModification" />
+        <activity
+            android:name=".studentStuff.Activities.AllNotes"
+            android:label="@string/title_activity_all_notes"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".studentStuff.Activities.Entrance_student"
+            android:label="@string/title_activity_enterance_student" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

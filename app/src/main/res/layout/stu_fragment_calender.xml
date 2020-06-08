@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".studentStuff.fragments.calender">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <TextView
+        android:id="@+id/today_Todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="To-Do List"
+        android:layout_margin="8dp"
+        android:textSize="22dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="start"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/today_todo_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/today_Todo">
+
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/today_reminders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/today_todo_recycler"
+        android:text="Reminders"
+        android:layout_margin="8dp"
+        android:textSize="22dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="start"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/today_reminders_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/today_reminders"></android.support.v7.widget.RecyclerView>
+
+</android.support.constraint.ConstraintLayout>
